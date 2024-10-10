@@ -161,5 +161,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# local
-nsis-installer-build-script.nsi
+# installer builder scripts
+# nsis script
+*.nsi
+# inno-setup script
+*.iss
+
