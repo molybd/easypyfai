@@ -1,2 +1,3 @@
 # easypyfai
-A pyfai &amp; silx packaging easy to install and launch
+
+A pyfai & silx packaging easy to install and launch

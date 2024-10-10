@@ -1,0 +1,1 @@
+pyinstaller.exe -y --clean --hidden-import numpy --hidden-import matplotlib --hidden-import PyQt5 --hidden-import silx --hidden-import fabio --hidden-import pyFAI --hidden-import pyopencl --hidden-import siphash24 --collect-all fabio --collect-all silx --collect-all pyFAI .\src\easypyfai\easypyfai.py

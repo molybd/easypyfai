@@ -1,0 +1,15 @@
+[project]
+name = "easypyfai"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "molybd", email = "limu.robert@outlook.com"},
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+
+
+[tool.pdm]
+distribution = false
