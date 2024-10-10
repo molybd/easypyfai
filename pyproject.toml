@@ -1,12 +1,21 @@
 [project]
 name = "easypyfai"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "A pyfai & silx packaging easy to install and launch"
 authors = [
     {name = "molybd", email = "limu.robert@outlook.com"},
 ]
-dependencies = []
-requires-python = ">=3.8"
+dependencies = [
+    "numpy>=2.1.2",
+    "matplotlib>=3.9.2",
+    "fabio>=2024.9.0",
+    "silx>=2.1.1",
+    "pyFAI>=2024.9.0",
+    "PyQt5>=5.15.11",
+    "pyopencl>=2024.2.7",
+    "siphash24>=1.6",
+]
+requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "GPL-3.0-or-later"}
 
